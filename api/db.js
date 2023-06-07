@@ -1,5 +1,6 @@
 import mysql from "mysql";
-require("dotenv").config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 export const db = mysql.createConnection({
   host: process.env.RAILWAY_DATABASE_HOST || "localhost",
