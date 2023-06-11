@@ -17,4 +17,4 @@ app.use(
 
 app.use("/", userRoutes);
 
-app.listen(process.env.PORT || 8800);
+app.listen(process.env.RAILWAY_DATABASE_PORT || 8800);
