@@ -10,7 +10,7 @@ app.use(express.json());
 // app.use(cors())
 app.use(
   cors({
-    origin: "https://test2-production-b226.up.railway.app/",
+    origin: "https://test2-production-b226.up.railway.app",
     credentials: true,
   })
 );
